@@ -5,8 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body {
-    height: 100%;
-    width: 100%;
+    
 }
 
 * {
@@ -37,11 +36,17 @@ header a:hover {
     text-decoration: underline;
 }
 
+main {
+    min-width: 320px;
+    max-width: 1920px;
+}
+
 main p {
     font-size: 3em;
     padding-top: 60px;
     padding-left: 30px;
     font-family: 'Sriracha', cursive;
+    
     
 }
 
@@ -52,6 +57,7 @@ main p {
     background-attachment: fixed;
     padding: 30px;
     padding-left: 20px;
+    width: 100%;
 }
 
 
@@ -68,11 +74,25 @@ main p {
     background-attachment: fixed;
     padding: 30px;
     padding-left: 20px;
+    box-shadow: inset 3px 5px 8px 0px rgba(0, 0, 0, 0.438);
+    width: 100%;
 
 }
 
 #CaixaDoP2 {
     width: 600px;
-    background-color: #65695D;
+    background-color: #565C4F;
     
+}
+
+.G {
+    padding-bottom: 12%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
 }
