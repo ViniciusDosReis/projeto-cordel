@@ -4,10 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-body {
-    
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -36,11 +32,6 @@ header a:hover {
     text-decoration: underline;
 }
 
-main {
-    min-width: 320px;
-    max-width: 1920px;
-}
-
 main p {
     font-size: 3em;
     padding-top: 60px;
@@ -50,24 +41,23 @@ main p {
     
 }
 
-#Image1 {
+#B {
     color: white;
     background-image: url('projeto-cordel-master/imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding: 30px;
     padding-left: 20px;
-    width: 100%;
 }
 
 
-#CaixaDoP {
+#CaixaDoB {
     width: 600px;
     background-color: #001000;
     margin-left: 10px;
 }
 
-#Image2 {
+#E {
     color: white;
     background-image: url('projeto-cordel-master/imagens/background002.jpg');
     background-size: cover;
@@ -75,11 +65,10 @@ main p {
     padding: 30px;
     padding-left: 20px;
     box-shadow: inset 3px 5px 8px 0px rgba(0, 0, 0, 0.438);
-    width: 100%;
 
 }
 
-#CaixaDoP2 {
+#CaixaDoE {
     width: 600px;
     background-color: #565C4F;
     
