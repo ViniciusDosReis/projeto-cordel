@@ -4,25 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@media only screen and (min-width: 1000px) {
-    main p {
-        font-size: 3em;
-    }
-
-    header h1 {
-        font-size: 6.8em;
-    }
-}
-@media only screen and (min-width: 650px) {
-    main p {
-        font-size: 1.5em;
-    }
-
-    header h1 {
-        font-size: 3.4em;
-    }
-}
-
 
 * {
     margin: 0px;
@@ -55,7 +36,6 @@ main p {
     padding-top: 60px;
     padding-left: 30px;
     font-family: 'Sriracha', cursive;
-    
     
 }
 
@@ -102,4 +82,50 @@ footer {
     text-align: center;
     padding: 5px;
     font-size: 19px;
+}
+
+@media only screen and (min-width: 1000px) {
+    main p {
+        font-size: 3em;
+    }
+
+    header h1 {
+        font-size: 6.8em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    main p {
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        font-size: 3.4em
+    }
+
+    #CaixaDoB {
+        width: 345px;
+    }
+
+    #CaixaDoE {
+        width: 345px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main p {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    #CaixaDoB {
+        width: 234px;
+    }
+
+    #CaixaDoE {
+        width: 234px;
+    }
 }
