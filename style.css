@@ -39,6 +39,10 @@ main p {
     
 }
 
+.A {
+    padding-bottom: 13%;
+}
+
 #B {
     color: white;
     background-image: url('projeto-cordel-master/imagens/background001.jpg');
@@ -53,6 +57,11 @@ main p {
     width: 600px;
     background-color: #001000;
     margin-left: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.815);
+}
+
+.D {
+    padding-bottom: 15%;
 }
 
 #E {
@@ -68,7 +77,8 @@ main p {
 
 #CaixaDoE {
     width: 600px;
-    background-color: #565C4F;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.815);
+   background-color: #52584B;
     
 }
 
