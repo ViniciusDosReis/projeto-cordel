@@ -58,6 +58,11 @@ main p {
     background-color: #001000;
     margin-left: 10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.815);
+    border-radius: 15px;
+}
+
+#CaixaDoB p {
+    padding-top: 10px;
 }
 
 .D {
@@ -79,7 +84,11 @@ main p {
     width: 600px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.815);
    background-color: #52584B;
-    
+    border-radius: 15px;
+}
+
+#CaixaDoE, p {
+    padding-top: 10px ;
 }
 
 .G {
